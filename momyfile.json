@@ -1,0 +1,29 @@
+{
+  "src": "mongodb://localhost:27017/POTC",
+  "dist": "mysql://root:root@localhost:3306/mongo",
+  "prefix": "t_",
+  "case": "camel",
+  "collections": {
+    "bookings": {
+      "_id": "SMALLCHAR",
+      "bookingID": "string",
+      "shippmentReference": "string",
+      "shippmentType": "string",
+      "catalogID": "string",
+      "cartons": "number",
+      "quanity": "number",
+      "internalReference": "string",
+      "description": "string",
+      "size": "string",
+      "color": "string",
+      "singleCartonWeight": "number",
+      "netWeight": "number",
+      "grossWeight": "number",
+      "cartonLengthCM": "number",
+      "cartonWidthCM": "number",
+      "cartonHeightCM": "number",
+      "CBM": "string",
+      "unitsPerCarton": "number"
+    }
+  }
+}
